@@ -9,7 +9,7 @@
 #form_bg {
     width: 100%;
     height: 60vh;
-    background-image: url(/Images/Forms_img/f4.png);
+    background-image: url(./Images/Forms_img/f4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 20%;
@@ -33,7 +33,7 @@
 }
 
 #RegularForm form {
-    background-image: url(/Images/Forms_img/f5.jpg);
+    background-image: url(./Images/Forms_img/f5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -101,7 +101,7 @@
 #personal_form_bg{
     width: 100%;
     height: 60vh;
-    background-image: url(/Images/Forms_img/f4.png);
+    background-image: url(./Images/Forms_img/f4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 20%;
