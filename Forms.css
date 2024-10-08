@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=League+Spartan&display=swap');
+
+/* font-family: 'League Spartan', sans-serif; */
+/* font-family: 'Concert One', sans-serif; */
+
+/* ----------- Regular Form -------------------- */
+
+#form_bg {
+    width: 100%;
+    height: 60vh;
+    background-image: url(./Images/Forms_img/f4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 20%;
+}
+
+#form_bg .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form_bg .text h2 {
+    font-size: 40px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+#RegularForm {
+    padding: 50px;
+}
+
+#RegularForm form {
+    background-image: url(./Images/Forms_img/f5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 6px;
+}
+
+#RegularForm .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#RegularForm form h3 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#RegularForm form input {
+    border: 0;
+    outline: 0;
+    margin: 10px 0;
+    padding: 15px;
+    background: #f5f5f5;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#RegularForm form button {
+    padding: 12px;
+    background: #FF5E0E;
+    color: #fff;
+    font-size: 22px;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#RegularForm .plan {
+    color: #000;
+}
+
+#RegularForm .plan p {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/* -------- Personal Traning bg image ----------- */
+
+#personal_form_bg {
+    width: 100%;
+}
+
+#personal_form_bg{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./Images/Forms_img/f4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 20%;
+}
+
+#personal_form_bg .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+#personal_form_bg .text h2 {
+    color: #fff;
+    font-size: 60px;
+}
+
+
+/* --------- Personal trainer form --------- */
+
+#Personal_Trainer {
+    width: 100%;
+}
+
+#Personal_Trainer h1 {
+    text-align: center;
+    color: #F60C0C;
+    margin: 50px 0 60px 0;
+}
+
+#Personal_Trainer .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Personal_Trainer form {
+    border: 1px solid black;
+    padding: 40px 30px;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#Personal_Trainer form h3 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#Personal_Trainer form .inp input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin: 10px 0;
+    padding: 15px;
+    background: #f5f5f5;
+    font-size: 16px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Personal_Trainer form .PT {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+
+#Personal_Trainer form button {
+    padding: 5px 20px;
+    background: #ec5408;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 40%;
+}
+
+/* -------- Media Queries - max-width- 799px ------ */
+
+@media(max-width:799px) {
+    #personal_form_bg {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #personal_form_bg .text {
+        padding-top: 155px;
+    }
+
+    #personal_form_bg .text h2 {
+        color: #fff;
+        font-size: 72px;
+        padding-left: 130px;
+    }
+
+    #Personal_Trainer {
+        margin-top: 200px;
+    }
+
+    #Personal_Trainer h1 {
+        font-size: 70px;
+        margin-bottom: 40px;
+    }
+
+    #Personal_Trainer .container {
+        margin-bottom: 100px;
+    }
+
+    #Personal_Trainer form {
+        width: 88%;
+        padding: 70px 48px;
+        border-radius: 15px;
+    }
+
+    #Personal_Trainer form .inp input {
+        width: 100%;
+        margin-bottom: 30px;
+        background: #f5f5f5;
+        font-size: 16px;
+    }
+
+    /* Joining Form */
+
+    #RegularForm .plan p {
+        color: #fff;
+    }
+
+    #form_bg .text h2 {
+        font-size: 45px;
+        padding-top: 15px;
+        opacity: 0.9;
+    }
+
+    #form_bg .text {
+        padding-top: 160px;
+    }
+}
+
+/* -------- Media Queries - max-width-477px ------ */
+
+@media(max-width:477px) {
+
+    #form_bg {
+        width: 100%;
+        height: 36vh;
+        background-position: 40% 20%;
+    }
+
+    #form_bg .text {
+        width: 100%;
+        padding-top: 75px;
+    }
+
+    #form_bg .text h2 {
+        font-size: 27px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 8px;
+        opacity: 0.9;
+    }
+
+    #RegularForm {
+        padding: 0px;
+        margin: 70px 0;
+    }
+
+    #RegularForm form input {
+        margin: 10px 0;
+        padding: 12px 15px;
+        border-radius: 5px;
+    }
+
+    #RegularForm form button {
+        padding: 5px 12px;
+    }
+
+    #RegularForm form {
+        padding: 35px 30px 50px 30px;
+        width: 94%;
+    }
+
+    #RegularForm .plan p {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    /* ---- Personal Trainer ---- */
+
+    #personal_form_bg {
+        height: 37vh;
+    }
+
+    #personal_form_bg .back-img {
+        width: 100%;
+        height: 36vh;
+        background-position: 40% 20%;
+    }
+
+    #personal_form_bg .text {
+        padding-top: 70px;
+    }
+
+    #personal_form_bg .text h2 {
+        text-align: center;
+        font-size: 46px;
+        padding: 30px;
+    }
+
+    #Personal_Trainer h1 {
+        font-size: 42px;
+        margin: 40px 0 40px 0;
+    }
+
+}

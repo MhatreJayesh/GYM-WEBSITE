@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Trainer Form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Forms.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <section id="header">
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="Images/Logos/logo_4.png" alt="logo" class="logo">
+        </a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="plan.html">Plan</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="plan.html"><button type="button" class="login">Join Us</button></a>
+                </li>
+                <i id="close" class="fa-solid fa-xmark"></i>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="personal_form_bg">
+        <div class="back-img">
+            <div class="text">
+                <h2>Become Fitter, Stronger, & More Confident!</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="Personal_Trainer">
+        <h1><span style="color: black;">Personal</span> Training</h1>
+        <div class="container">
+
+            <form name="Normal_Form" onsubmit="return Validation()">
+                <div class="inp">
+                    <h3>Fill This Form Out For Your Free Consultation!</h3>
+                    <input type="text" name="Fname" placeholder="First Name" required>
+                    <input type="text" name="Lname" placeholder="Last Name" required>
+                    <input type="email" name="email" placeholder="Email Id" required>
+                    <input type="text" name="phone" placeholder="Phone" required>
+                </div>
+
+                <div class="PT">
+                    <h6>Weight Goal?</h6>
+                    <input type="radio" name="Goal" value="Lose_Weight" id="T1" required>
+                    <label for="T1">Lose Weight</label>
+                    <input type="radio" name="Goal" value="Gain_Weight" id="T2" required>
+                    <label for="T2">Gain Weight</label>
+                    <input type="radio" name="Goal" value="Maintain_Weight" id="T3" required>
+                    <label for="T3">Maintain Weight</label>
+                    <br>
+                    <br>
+                    <h6>Gym Experience?</h6>
+                    <input type="radio" name="experience" value="Beginner" id="E1" required>
+                    <label for="E1">Beginner</label>
+                    <input type="radio" name="experience" value="Intermediate" id="E2" required>
+                    <label for="E2">Intermediate</label>
+                    <input type="radio" name="experience" value="Experienced" id="E3" required>
+                    <label for="E3">Experienced</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="section-m1">
+        <a href="index.html">
+            <img src="Images/Logos/logo_4.png" alt="logo" class="logo">
+        </a>
+        <div class="f-items">
+            <div class="col-1">
+                <h3>Contact</h3>
+                <p><strong>Address: </strong>At.kolgaon,Po.sasawane,<br>Tal.alibaug,behind maruti temple.</p>
+                <p><strong>Email: </strong>jayeshfit07@gmail.com</p>
+                <p><strong>Phone: </strong>+ 91 7767915136</p>
+            </div>
+            <div class="col-1">
+                <h3>Open Hours</h3>
+                <p>Weekdays : 6:30am - 11pm</p>
+                <p>Saturday: 7am - 10pm</p>
+                <p>Sunday: 9am - 6pm</p>
+            </div>
+            <div class="col-3">
+                <h3>Program</h3>
+                <p><a href="#">Bodybuilding</a></p>
+                <p><a href="#">Running</a></p>
+                <p><a href="#">Streching</a></p>
+                <p><a href="#">Weight Loss</a></p>
+                <p><a href="#">Gym Fitness</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Jayesh Fitness - All Rights are reserved.</p>
+        </div>
+    </footer>
+    <!------------------- Script --------------->
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
