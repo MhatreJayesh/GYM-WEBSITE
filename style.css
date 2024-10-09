@@ -930,7 +930,7 @@ footer .copyright {
 
 /* Start Media Query -----> Max-Width = 799px */
 
-@media(max-width:799px) {
+@media(max-width:1140px) {
 
     #navbar {
         display: flex;
